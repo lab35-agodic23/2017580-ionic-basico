@@ -1,4 +1,25 @@
 button {
     color: white;
-    background-color: black;
+    background-color: purple;
+    border-radius: 15px;
+    width: 200px;
+    height: 35px;
+    text-align: center;
+    margin: 20px 0px 0 0%;
+}
+
+input{
+    background-color: gainsboro;
+
+}
+
+p{
+    justify-content: center;
+    display: flex;
+}
+
+div{
+    justify-content: center;
+    display: flex;
+    margin: 20px 0px 0 0%;
 }
