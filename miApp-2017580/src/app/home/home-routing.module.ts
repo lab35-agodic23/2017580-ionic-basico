@@ -14,3 +14,19 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class HomePageRoutingModule {}
+
+{
+  path: 'productos',
+  component: ProductoComponent
+},
+
+{
+  path: '',
+  redirectTo: '/productos',
+  pathMatch: 'full'
+},
+
+{
+  path: 'producto/:id',
+  component: ProductoDetalleComponent
+},
